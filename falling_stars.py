@@ -20,11 +20,6 @@ class FallingStars:
         # create screen of certain size
         self.screen = pygame.display.set_mode((self.settings.screen_width, self.settings.screen_height))
 
-        # # A fullscreen variant of game
-        # self.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
-        # self.settings.screen_width = self.screen.get_rect().width
-        # self.settings.screen_height = self.screen.get_rect().height
-
         pygame.display.set_caption("Falling Stars")
 
         # Create an instance to store game statistics, and create a scoreboard.
